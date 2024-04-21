@@ -1,2 +1,6 @@
 # Office-Performance-Report-Final-Project---Python
-An application that builds a spreadsheet calculating a rating for each employee based off of a sample project list and sample employee list.
+An application that will perform the task of building a quarterly performance report to determine an employee’s performance, automatically pulling data from various spreadsheets to analyse the data to give the employee’s a rating. Key information needed for the report would be hours logged by all employees to complete projects, employee first and last name, client satisfaction rating and from this the employee will get a rating of ‘HIGH’, ‘AVERAGE’, or ‘LOW’. 
+
+This rating is calculated by a client rating score, which is given by the client to the company. Each employee who worked on that project will have this score determine their multiplier. These three are 0.03, 0.04, 0.05, the high status being in the 6.6 to 10 range, middle 6.5 to 4 and last 3.9 to 0. Once a multiplier is assigned based on the client rating, the hours each employee has worked is multiplied against the chosen multiplier and this score, using the same ranges as the ones above, determines the status ‘HIGH’, ‘AVERAGE’, or ‘LOW’. 
+
+After the scan and generated spreadsheet is completed, a diagnostic report will be made to confirm that each scanner and the spreadsheet generator returned complete, if nothing was returned, it means there was a failure somewhere in the system. Also shows the current date and time it was generated, the runtime of the program and unused scanned elements.
