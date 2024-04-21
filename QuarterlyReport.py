@@ -1,4 +1,3 @@
-#Isaiah Wallace 200557041
 #A program which parses through two different spreadsheets for the needed info
 #to make a performace report based on the info, then makes a diagnostic report
 #to assure that all has been executed properly
